@@ -9,6 +9,7 @@ on English Wikipedia from January 1 2008 through August 30 2021.
 Data about Wikipedia page traffic is pulled from two different Wikimedia REST API endpoints and combined into a single dataset. Some simple data processing steps are performed on the data before the visualization is generated.
 
 Source data licenses: 
+
 CC-BY-SA 3.0 https://creativecommons.org/licenses/by-sa/3.0/
 GFDL licenses https://www.gnu.org/copyleft/fdl.html
 
