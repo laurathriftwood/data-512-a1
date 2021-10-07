@@ -28,11 +28,12 @@ Data from the Pageview API excludes spiders/crawlers, while data from the Pageco
 does not.
 
 Final data file includes the following fields:
-year (YYYY)
-month (MM)
-pagecount_all_views (num_views)
-pagecount_desktop_views (num_views)
-pagecount_mobile_views (num_views)
-pageview_all_views (num_views)
-pageview_desktop_views (num_views)
-pageview_mobile_views (num_views)
+
+- year (YYYY)
+- month (MM)
+- pagecount_all_views (num_views)
+- pagecount_desktop_views (num_views)
+- pagecount_mobile_views (num_views)
+- pageview_all_views (num_views)
+- pageview_desktop_views (num_views)
+- pageview_mobile_views (num_views)
