@@ -19,12 +19,16 @@ PageView API documentation
 https://wikitech.wikimedia.org/wiki/Analytics/AQS/Pageviews
 https://wikimedia.org/api/rest_v1/#/Pageviews_data/get_metrics_pageviews_aggregate_project_access_agent_granularity_start_end
 
-
-Describe the values of all fields in your final data file.
-
-
-
-List any known issues or special considerations with the data that would be useful
-for another researcher to know. For example, you should describe that data from
-the Pageview API excludes spiders/crawlers, while data from the Pagecounts API
+Important notes:
+Data from the Pageview API excludes spiders/crawlers, while data from the Pagecounts API
 does not.
+
+Final data file includes the following fields:
+year (YYYY)
+month (MM)
+pagecount_all_views (num_views)
+pagecount_desktop_views (num_views)
+pagecount_mobile_views (num_views)
+pageview_all_views (num_views)
+pageview_desktop_views (num_views)
+pageview_mobile_views (num_views)
